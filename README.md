@@ -50,8 +50,13 @@ Before running CrimeFlare make sure you have `php-curl` installed, install it wi
 git clone https://github.com/zidansec/CloudPeler.git
 ```
 ```bash
-cd CrimeFlare
+cd CloudPeler
 ```
 ```bash
 php crimeflare.php exemple.com
 ```
+
+Reference:
+
+- https://www.xploit.my.id/2021/07/crimeflare-bypass-tools-cloudflare.html
+- https://zidan.xploit.my.id/posts/cloudpeler-crimeflare-next-generation/
