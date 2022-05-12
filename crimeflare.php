@@ -32,7 +32,7 @@ echo "
 \n";
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL,"https://cf.izagidanismanlik.com/?url=".htmlspecialchars(addslashes($url)).""); 
+curl_setopt($ch, CURLOPT_URL,"https://crimeflare.herokuapp.com/?url=".htmlspecialchars(addslashes($url)).""); 
 curl_setopt($ch, CURLOPT_POST, 1); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); 
 $exec = curl_exec($ch);
