@@ -44,10 +44,10 @@
 
 ## Installation
 
-Before running CrimeFlare make sure you have `php-curl` installed, install it with the command `sudo apt install php-curl`
+Before running CrimeFlare make sure you have `php-curl` installed, install it with the command `sudo apt install php-curl` and follow the next installation steps.
 
 ```bash
-git clone https://github.com/zidansec/CrimeFlare.git
+git clone https://github.com/zidansec/CloudPeler.git
 ```
 ```bash
 cd CrimeFlare
