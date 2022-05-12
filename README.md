@@ -39,7 +39,7 @@
 
 ## API Used In This Tool
 
-- https://link.xploit.my.id/api
+- https://link.xploit.my.id/api or https://crimeflare.herokuapp.com/?url=
 - http://ipinfo.io/2.2.2.2/json
 
 ## Installation
