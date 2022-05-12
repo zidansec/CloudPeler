@@ -1,13 +1,3 @@
-# These are supported funding model platforms
 
-github: [zidansx]
-patreon: 
-open_collective: 
-ko_fi: # Replace with a single Ko-fi username
-tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
-community_bridge: 
-liberapay: # Replace with a single Liberapay username
-issuehunt: # Replace with a single IssueHunt username
-otechie: # Replace with a single Otechie username
-lfx_crowdfunding: 
+github: zidansec
 custom: ['https://zidan.xploit.my.id', 'https://www.xploit.my.id']
