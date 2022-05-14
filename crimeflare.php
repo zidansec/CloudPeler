@@ -1,4 +1,4 @@
-<?php @ini_set('display_errors', 0);
+<?php @ini_set('display_errors', 0); error_reporting(0);
 
 if(!empty($_GET['url'])){
      $url = urldecode($_GET['url']); 
