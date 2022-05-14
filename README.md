@@ -39,7 +39,7 @@
 
 ## API Used In This Tool
 
-- https://crimeflare.herokuapp.com/?url=
+- https://crimeflare.herokuapp.com
 - http://ipinfo.io/2.2.2.2/json
 
 ## Installation
