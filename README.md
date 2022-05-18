@@ -53,7 +53,7 @@ git clone https://github.com/zidansec/CloudPeler.git
 cd CloudPeler
 ```
 ```bash
-php ./crimeflare.php exemple.com
+./crimeflare.php exemple.com
 ```
 ### Easy to run
 
