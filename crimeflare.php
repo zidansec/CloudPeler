@@ -10,7 +10,7 @@ if(!empty($_GET['url'])){
     system("clear");
          die("
 \033[0;36m       __     
-\033[0;36m    __(  )_   \033[1;97m\033[4;37mCloudFlare Bypass Hostname\e[0;0m \033[4;31mv2.1\e[0;0m
+\033[0;36m    __(  )_   \033[1;97m\033[4;37mCloudFlare Bypass Hostname\e[0;0m \033[4;31mv2.2\e[0;0m
 \033[0;36m __(       )_   \e[0;0mAuthor : zidansec (Chemod-77)
 \033[0;36m(____________)  \e[0;0mContact: zidansec@gmail.com
                 Sites  : https://zidan.xploit.my.id
@@ -22,13 +22,13 @@ This tools can help you to see the real \033[1;97m\033[4;37mIP\e[0;0m behind \03
     \033[1;91m❝\033[1;36m Not all websites with cloudflare WAF can be bypassed with this tool \033[1;91m❞
 
 \033[1;92m    - \033[1;97mHow do I run it?\e[0;0m
-\033[1;92m    - \033[1;97mCommand: \033[1;37m./$cf\e[0;0m exemple.com\e[0;0m
+\033[1;92m    - \033[1;97mCommand: \033[1;37m./$cf\e[0;0m \033[1;97mexemple.com\e[0;0m
          \n"); 
         }
         
 $alert = "
 \033[0;36m       __     
-\033[0;36m    __(  )_   \033[1;97m\033[4;37mCloudFlare Bypass Hostname\e[0;0m \033[4;31mv2.1\e[0;0m
+\033[0;36m    __(  )_   \033[1;97m\033[4;37mCloudFlare Bypass Hostname\e[0;0m \033[4;31mv2.2\e[0;0m
 \033[0;36m __(       )_   \e[0;0mAuthor : zidansec (Chemod-77)
 \033[0;36m(____________)  \e[0;0mContact: zidansec@gmail.com
                 Sites  : https://zidan.xploit.my.id
@@ -60,7 +60,7 @@ function showProgressBar($percentage, int $numDecimalPlaces)
     $numBars = round(($percentage) / 100 * ($barWidth));
     $numEmptyBars = $barWidth - $numBars;
 
-    $barsString = '[' . str_repeat("\033[0;92m=\e[0;0m", ($numBars)) . str_repeat(" ", ($numEmptyBars)) . ']';
+    $barsString = '[' . str_repeat("\033[0;92m#\e[0;0m", ($numBars)) . str_repeat(" ", ($numEmptyBars)) . ']';
 
     echo "($percentageString) " . $barsString . "\r";
 }
@@ -99,7 +99,7 @@ $$ |      /$$$$$$  |$$ |$$$$$$ $$$$  |/$$$$$$  |$$    |   $$ | $$$$$$  |/$$$$$$ 
 $$ |   __ $$ |  $$/ $$ |$$ | $$ | $$ |$$    $$ |$$$$$/    $$ | /    $$ |$$ |  $$/ $$    $$ |
 $$ \__/  |$$ |      $$ |$$ | $$ | $$ |$$$$$$$$/ $$ |      $$ |/$$$$$$$ |$$ |      $$$$$$$$/ 
 $$    $$/ $$ |      $$ |$$ | $$ | $$ |$$       |$$ |      $$ |$$    $$ |$$ |      $$       |
- $$$$$$/  $$/       $$/ $$/  $$/  $$/  $$$$$$$/ $$/       $$/  $$$$$$$/ $$/        $$$$$$$/ \e[0;0m \033[4;31mv2.1\e[0;0m
+ $$$$$$/  $$/       $$/ $$/  $$/  $$/  $$$$$$$/ $$/       $$/  $$$$$$$/ $$/        $$$$$$$/ \e[0;0m \033[4;31mv2.2\e[0;0m
 ";
 
 if(!empty($exec)) {
@@ -110,17 +110,20 @@ if(!empty($exec)) {
 \033[1;92m    -\e[0;0m Unable to detect \033[1;97mIP\e[0;0m address from (\033[1;97m\033[4;37m".htmlspecialchars(addslashes($url))."\e[0;0m)
         \n"); 
     }
+
     $get = json_decode(file_get_contents("http://ipinfo.io/$ip[1]/json?token=51a986ffa5ddb1"));
+    $dns = dns_get_record( $url, DNS_NS); $ns1 = $dns[0]['target']; $ns2 = $dns[1]['target'];
+
     print_r ("$logo
         Website Target : $url
         CloudFlare IP  : $cloudflare
+        CloudFlare NS1 : $ns1
+        CloudFlare NS2 : $ns2
         \033[1;92m--------------------------------------------------------------------------------\e[0;0m
         Real IP        : $get->ip
         Hostname       : $get->hostname
         Organization   : $get->org
-        City           : $get->city
-        Country        : $get->country
-        Postal Code    : $get->postal
+        Address        : $get->country, $get->city, $get->region $get->postal
         Location       : $get->loc
         Time Zone      : $get->timezone
         \n");
