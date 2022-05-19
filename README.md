@@ -5,7 +5,7 @@
 	<h1><img width="80%" src="https://readme-typing-svg.herokuapp.com?duration=03&font=Lalezar&size=30&color=green&center=true&vCenter=true&width=440&lines=CrimeFlare+Bypass+Hostname" /></h1>
   <br />
 	<p>CrimeFlare is back again! This tools can help you to see the real IP behind CloudFlare protected websites</p>
-	<img src="https://i.imgur.com/xKNnR7s.png" />
+	<img src="https://i.imgur.com/1JKN2Oh.png" />
 	<br />
 	<a href="https://www.linux.org"><img src="https://img.shields.io/badge/OS-Linux-yellow?style=flat&logo=linux" /></a>
 	<a href="https://ubuntu.com/"><img src="https://img.shields.io/badge/Distro-Ubuntu-orange?style=flat&logo=ubuntu" /></a>
@@ -77,7 +77,7 @@ sudo cp crimeflare.php /bin/crimeflare
 
 To run it now just type command `crimeflare` in your linux terminal
 
-<div align="center"><img width="1000px" src="https://i.imgur.com/ew47sWE.gif" /></div>
+<div align="center"><img width="1000px" src="https://i.imgur.com/WEC9PyZ.gif" /></div>
 
 ## Reference:
 
