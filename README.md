@@ -62,7 +62,7 @@ Simple install CrimeFlare on Ubuntu:
 sudo wget https://github.com/zidansec/CloudPeler/raw/master/crimeflare.php -O /bin/crimeflare && sudo chmod +x /bin/crimeflare
 ```
 
-Run command: 'crimeflare' or 'crimeflare exemple.com'
+Run command: `crimeflare` or `crimeflare exemple.com`
 
 ### Easy to run
 
