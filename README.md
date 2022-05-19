@@ -5,12 +5,12 @@
 	<h1><img width="80%" src="https://readme-typing-svg.herokuapp.com?duration=03&font=Lalezar&size=30&color=green&center=true&vCenter=true&width=440&lines=CrimeFlare+Bypass+Hostname" /></h1>
   <br />
 	<p>CrimeFlare is back again! This tools can help you to see the real IP behind CloudFlare protected websites</p>
-	<img src="https://i.imgur.com/tsWxx2d.png" />
+	<img src="https://i.imgur.com/xKNnR7s.png" />
 	<br />
 	<a href="https://www.linux.org"><img src="https://img.shields.io/badge/OS-Linux-yellow?style=flat&logo=linux" /></a>
 	<a href="https://ubuntu.com/"><img src="https://img.shields.io/badge/Distro-Ubuntu-orange?style=flat&logo=ubuntu" /></a>
   <a href="https://www.cloudflare.com/"><img src="https://img.shields.io/badge/Web%20Application%20Firewall-CloudFlare-orange?style=flat&logo=cloudflare" /></a>
-	<a href="https://github.com/zidansec"><img src="https://img.shields.io/badge/CrimeFlare-v2.1-red?style=flat&logo=red%20hat" /></a>
+	<a href="https://github.com/zidansec"><img src="https://img.shields.io/badge/CrimeFlare-v2.2-red?style=flat&logo=red%20hat" /></a>
   <br />
 	<a href="https://github.com/zidansec"><img src="https://img.shields.io/github/followers/zidansec?label=Github&style=social" /></a>
 	<a href="mailto:zidansec@gmail.com/"><img src="https://img.shields.io/badge/Email-zidansec@gmail.com-e06c75?style=social&logo=gmail" /></a>
