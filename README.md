@@ -68,7 +68,7 @@ sudo cp crimeflare.php /bin/crimeflare
 
 To run it now just type command `crimeflare` in your linux terminal
 
-<div align="center"><img width="80%" src="https://i.imgur.com/ew47sWE.gif" /></div>
+<div align="center"><img width="100%" src="https://i.imgur.com/ew47sWE.gif" /></div>
 
 ## Reference:
 
