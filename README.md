@@ -55,6 +55,15 @@ cd CloudPeler
 ```bash
 ./crimeflare.php exemple.com
 ```
+
+Simple install CrimeFlare on Ubuntu:
+
+```bash
+sudo wget https://github.com/zidansec/CloudPeler/raw/master/crimeflare.php -O /bin/crimeflare && sudo chmod +x /bin/crimeflare
+```
+
+Run command: 'crimeflare' or 'crimeflare exemple.com'
+
 ### Easy to run
 
 If you want to run crimeflare easily on linux ubuntu, follow the below command. This command will add the `crimeflare.php` file into the `/bin/` directory on your Ubuntu OS.
