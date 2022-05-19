@@ -88,7 +88,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $exec = curl_exec($ch);
 curl_close ($ch);
 
- ob_end_flush(); sleep(2); system("clear");
+ob_end_flush(); sleep(2); system("clear");
 
 $logo = "\033[0;92m
   ______             __                          ________  __                               
@@ -111,21 +111,21 @@ if(!empty($exec)) {
         \n"); 
     }
 
-    $get = json_decode(file_get_contents("http://ipinfo.io/$ip[1]/json?token=51a986ffa5ddb1"));
-    $dns = dns_get_record( $url, DNS_NS); $ns1 = $dns[0]['target']; $ns2 = $dns[1]['target'];
+    $data = json_decode(file_get_contents("https://crimeflare.herokuapp.com/lookup.php?ip=$ip[1]")); $get = json_decode(file_get_contents("http://ipinfo.io/$ip[1]/json?token=51a986ffa5ddb1")); $host = file_get_contents("https://get.geojs.io/v1/dns/ptr/$ip[1]"); $host = str_replace("\n", "", $host); $host = str_replace("Failed to get PTR record", "\e[0;0m\033[4;31mNot detected\e[0;0m", $host); $dns = dns_get_record( $url, DNS_NS); $ns1 = $dns[0]['target']; $ns2 = $dns[1]['target'];
 
     print_r ("$logo
-        Website Target : $url
-        CloudFlare IP  : $cloudflare
-        CloudFlare NS1 : $ns1
-        CloudFlare NS2 : $ns2
+        Website Target  : $url
+        CloudFlare IP   : $cloudflare
+        CloudFlare NS1  : $ns1
+        CloudFlare NS2  : $ns2
         \033[1;92m--------------------------------------------------------------------------------\e[0;0m
-        Real IP        : $get->ip
-        Hostname       : $get->hostname
-        Organization   : $get->org
-        Address        : $get->country, $get->city, $get->region $get->postal
-        Location       : $get->loc
-        Time Zone      : $get->timezone
+        Real IP Address : $get->ip
+        Hostname        : $host
+        Company         : $data->isp
+        Country         : $data->country_name
+        Address         : $data->country_code, $data->city_name $data->region_name, $data->weather_station_name, $data->zip_code
+        Location        : $get->loc
+        Time Zone       : $get->timezone $data->time_zone
         \n");
     } else {
         echo "$alert
