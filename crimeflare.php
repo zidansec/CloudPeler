@@ -40,7 +40,7 @@ $alert = "
 
 system("clear");
 
-echo "\n\033[1;92mScanning: \033[1;97m\033[4;37m".htmlspecialchars(addslashes($url))."\e[0;0m\n";
+echo "\033[1;92mScanning: \033[1;97m\033[4;37m".htmlspecialchars(addslashes($url))."\e[0;0m\n";
 
 function showProgressBar($percentage, int $numDecimalPlaces)
 {
@@ -65,7 +65,7 @@ function showProgressBar($percentage, int $numDecimalPlaces)
     echo "($percentageString) " . $barsString . "\r";
 }
 
-$level = ob_get_level();
+//$level = ob_get_level();
 $total = '1000';
 for ($i=0; $i<$total; $i++) 
 {
@@ -90,8 +90,7 @@ curl_close ($ch);
 
 ob_end_flush(); sleep(2); system("clear");
 
-$logo = "\033[0;92m
-  ______             __                          ________  __                               
+$logo = "\033[0;92m  ______             __                          ________  __                               
  /      \           /  |                        /        |/  |                              
 /$$$$$$  |  ______  $$/  _____  ____    ______  $$$$$$$$/ $$ |  ______    ______    ______  
 $$ |  $$/  /      \ /  |/     \/    \  /      \ $$ |__    $$ | /      \  /      \  /      \ 
@@ -125,7 +124,7 @@ if(!empty($exec)) {
         Country         : $data->country_name
         Address         : $data->country_code, $data->city_name $data->region_name, $data->weather_station_name, $data->zip_code
         Location        : $get->loc
-        Time Zone       : $get->timezone $data->time_zone
+        Time Zone       : $get->timezone ($data->time_zone)
         \n");
     } else {
         echo "$alert
