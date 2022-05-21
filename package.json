@@ -1,5 +1,5 @@
 {
-  "name": "crimeflare",
+  "name": "@crimeflare/crimeflare",
   "version": "2.2.0",
   "description": "This tools can help you to see the real IP behind CloudFlare protected websites.",
   "main": "index.js",
