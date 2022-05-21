@@ -79,6 +79,7 @@ ob_start();
 $url = str_replace("www.", "", $url);
 $url = str_replace("http://", "", $url);
 $url = str_replace("https://", "", $url);
+$url = str_replace("/", "", $url);
 
 // sudo apt install php-curl
 $ch = curl_init();
