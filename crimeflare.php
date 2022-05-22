@@ -111,7 +111,9 @@ if(!empty($exec)) {
         \n"); 
     }
 
-    $data = json_decode(file_get_contents("https://crimeflare.herokuapp.com/lookup.php?ip=$ip[1]")); $get = json_decode(file_get_contents("http://ipinfo.io/$ip[1]/json?token=51a986ffa5ddb1")); $host = file_get_contents("https://get.geojs.io/v1/dns/ptr/$ip[1]"); $host = str_replace("\n", "", $host); $host = str_replace("Failed to get PTR record", "\e[0;0m\033[4;31mNot detected\e[0;0m", $host); $dns = dns_get_record( $url, DNS_NS); $ns1 = $dns[0]['target']; $ns2 = $dns[1]['target'];
+    $data = json_decode(file_get_contents("http://ip-api.com/json/".$ip[1]."?fields=status,message,country,countryCode,region,regionName,city,district,zip,lat,lon,timezone,offset,currency,isp,org,as,asname,reverse,query")); $token = "51a986ffa5ddb1"; $get = json_decode(file_get_contents("http://ipinfo.io/$ip[1]/json?token=$token")); $host = file_get_contents("https://get.geojs.io/v1/dns/ptr/$ip[1]"); $host = str_replace("\n", "", $host); $host = str_replace("Failed to get PTR record", "\e[0;0m\033[4;31mNot detected\e[0;0m", $host); $dns = dns_get_record( $url, DNS_NS); $ns1 = $dns[0]['target']; $ns2 = $dns[1]['target'];
+    $geo = json_decode(file_get_contents("https://get.geojs.io/v1/ip/country/".$ip[1].".json"));
+
 
     print_r ("$logo
         Website Target  : $url
@@ -121,11 +123,11 @@ if(!empty($exec)) {
         \033[1;92m--------------------------------------------------------------------------------\e[0;0m
         Real IP Address : $get->ip
         Hostname        : $host
-        Company         : $data->isp
-        Country         : $data->country_name
-        Address         : $data->country_code, $data->city_name $data->region_name, $data->weather_station_name, $data->zip_code
+        Company         : $data->org
+        Country         : $geo->name
+        Address         : $get->country, $get->city, $get->region
         Location        : $get->loc
-        Time Zone       : $get->timezone ($data->time_zone)
+        Time Zone       : $get->timezone
         \n");
     } else {
         echo "$alert
