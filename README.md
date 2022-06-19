@@ -50,7 +50,7 @@ Additional reference tool to see the real IP behind WAF Cloudflare
 
 - https://osinthreat.herokuapp.com/
 
-<img src='https://i.imgur.com/QDDBUCV.png' />
+<a href='https://osinthreat.herokuapp.com/domain.php?domain=fbi.gov' target='_blank'><img src='https://i.imgur.com/QDDBUCV.png' /></a>
 
 ## Installation
 
