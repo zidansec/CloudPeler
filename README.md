@@ -46,7 +46,7 @@ Additional reference tool to see the real IP behind WAF Cloudflare
 
 ## OsintSec - Information Gathering Intelligence
 
-> Simple open source for further penetration, this tool is able to visualize network from Domain, IP, Email and more.
+> Simple tools for further penetration, this tool is able to visualize network from Domain, IP, Email and more.
 
 - https://osinthreat.herokuapp.com/
 
