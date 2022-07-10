@@ -2,8 +2,6 @@
   <img src="https://visitcount.itsvg.in/api?id=CrimeFlare&label=Visitors&color=6&icon=5&pretty=true" />
 </a>
 
-> SORRY, THE PROJECT WAS STOPPED FOR THE TIME.
-
 <div align="center">
 	<h1><img width="80%" src="https://readme-typing-svg.herokuapp.com?duration=03&font=Lalezar&size=30&color=green&center=true&vCenter=true&width=440&lines=CrimeFlare+Bypass+Hostname" /></h1>
   <br />
