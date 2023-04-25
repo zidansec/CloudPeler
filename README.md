@@ -1,7 +1,7 @@
 <a href="https://visitcount.itsvg.in">
   <img src="https://visitcount.itsvg.in/api?id=CrimeFlare&label=Visitors&color=6&icon=5&pretty=true" />
 </a>
-
+<br /><div align="center"><h1><img width="70%" src="https://readme-typing-svg.herokuapp.com?font=Lalezar&duration=10000&pause=1000&color=F70000&width=635&lines=This+tool+is+no+longer+working+for+now%2C+the+project+will+be+resumed+later." /></h1><br />DONATION<br /><br /><a href="https://www.paypal.me/zidansec"><img title="Donations For Projects" height="25" src="https://ionicabizau.github.io/badges/paypal.svg" /></a></div><br />
 <div align="center">
 	<h1><img width="80%" src="https://readme-typing-svg.herokuapp.com?duration=03&font=Lalezar&size=30&color=green&center=true&vCenter=true&width=440&lines=CrimeFlare+Bypass+Hostname" /></h1>
   <br />
