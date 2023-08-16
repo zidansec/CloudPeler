@@ -11,9 +11,9 @@ if(!empty($_GET['url'])){
          die("
 \033[0;36m       __     
 \033[0;36m    __(  )_   \033[1;97m\033[4;37mCloudFlare Bypass Hostname\e[0;0m \033[4;31mv2.2\e[0;0m
-\033[0;36m __(       )_   \e[0;0mAuthor : zidansec (Chemod-77)
-\033[0;36m(____________)  \e[0;0mContact: zidansec@gmail.com
-                Sites  : https://zidan.xploit.my.id
+\033[0;36m __(       )_   \e[0;0mAuthor : ZidanSec
+\033[0;36m(____________)  \e[0;0mContact: info@zidansec.com
+                Sites  : https://zidansec.com
 
 \033[45m-------------------------------\e[0;0m[\e[0m\e[1;91m NOTES \e[0;0m]\033[45m---------------------------------------\e[0;0m
 
@@ -29,9 +29,9 @@ This tools can help you to see the real \033[1;97m\033[4;37mIP\e[0;0m behind \03
 $alert = "
 \033[0;36m       __     
 \033[0;36m    __(  )_   \033[1;97m\033[4;37mCloudFlare Bypass Hostname\e[0;0m \033[4;31mv2.2\e[0;0m
-\033[0;36m __(       )_   \e[0;0mAuthor : zidansec (Chemod-77)
-\033[0;36m(____________)  \e[0;0mContact: zidansec@gmail.com
-                Sites  : https://zidan.xploit.my.id
+\033[0;36m __(       )_   \e[0;0mAuthor : ZidanSec
+\033[0;36m(____________)  \e[0;0mContact: info@zidansec.com
+                Sites  : https://zidansec.com
 
 \033[45m-------------------------------\e[0;0m[\e[0m\e[1;91m ALERT \e[0;0m]\033[45m---------------------------------------\e[0;0m
 
@@ -83,7 +83,7 @@ $url = str_replace("/", "", $url);
 
 // sudo apt install php-curl
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL,"https://crimeflare.herokuapp.com/?url=".htmlspecialchars(addslashes($url)).""); // CrimeFlare API v2.1
+curl_setopt($ch, CURLOPT_URL,"https://crimeflare.zidansec.com/?url=".htmlspecialchars(addslashes($url)).""); // CrimeFlare API v2.1
 curl_setopt($ch, CURLOPT_POST, 1); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); 
 $exec = curl_exec($ch);
