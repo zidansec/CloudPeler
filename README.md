@@ -1,7 +1,7 @@
 <a href="https://visitcount.itsvg.in">
   <img src="https://visitcount.itsvg.in/api?id=CrimeFlare&label=Visitors&color=6&icon=5&pretty=true" />
 </a>
-<br /><div align="center"><h1><img width="70%" src="https://readme-typing-svg.herokuapp.com?font=Lalezar&duration=10000&pause=1000&color=F70000&width=635&lines=This+tool+is+no+longer+working+for+now%2C+the+project+will+be+resumed+later." /></h1><br />DONATION<br /><br /><a href="https://www.paypal.me/zidansec"><img title="Donations For Projects" height="25" src="https://ionicabizau.github.io/badges/paypal.svg" /></a></div><br />
+<!--<br /><div align="center"><h1><img width="70%" src="https://readme-typing-svg.herokuapp.com?font=Lalezar&duration=10000&pause=1000&color=F70000&width=635&lines=This+tool+is+no+longer+working+for+now%2C+the+project+will+be+resumed+later." /></h1><br />DONATION<br /><br /><a href="https://www.paypal.me/zidansec"><img title="Donations For Projects" height="25" src="https://ionicabizau.github.io/badges/paypal.svg" /></a></div><br />-->
 <div align="center">
 	<h1><img width="80%" src="https://readme-typing-svg.herokuapp.com?duration=03&font=Lalezar&size=30&color=green&center=true&vCenter=true&width=440&lines=CrimeFlare+Bypass+Hostname" /></h1>
   <br />
@@ -17,6 +17,9 @@
 	<a href="mailto:zidansec@gmail.com/"><img src="https://img.shields.io/badge/Email-zidansec@gmail.com-e06c75?style=social&logo=gmail" /></a>
 	<a href="https://youtube.com/channel/UCo6KfMw8dOZ4QGNL1RrjsBQ"><img src="https://img.shields.io/badge/YT-Exploitasi-dcdfe4?style=social&logo=youtube" /></a>
   <br />
+	<br/>
+	<p width="20px"><b>Donation for project development</p></b>
+	<a href="https://www.buymeacoffee.com/zidansec"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=zidansec&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a><br />
 	<a href="https://www.paypal.me/zidansec"><img title="Donations For Projects" height="25" src="https://ionicabizau.github.io/badges/paypal.svg" /></a>
 </div>
 
@@ -40,7 +43,7 @@
 
 ## API Used In This Tool
 
-- https://crimeflare.herokuapp.com
+- https://crimeflare.zidansec.com
 - http://ipinfo.io/2.2.2.2/json
 
 Additional reference tool to see the real IP behind WAF Cloudflare
@@ -92,5 +95,5 @@ To run it now just type command `crimeflare` in your linux terminal
 
 ## Reference:
 
-- https://www.xploit.my.id/2021/07/crimeflare-bypass-tools-cloudflare.html
-- https://zidan.xploit.my.id/posts/cloudpeler-crimeflare-next-generation/
+- [https://www.xploit.my.id/2021/07/crimeflare-bypass-tools-cloudflare.html](https://www.xploit.my.id/2021/07/crimeflare-bypass-tools-cloudflare.html)
+- [https://zidansec.com/cloudpeler-crimeflare-next-generation/](https://zidansec.com/crimeflare-tools-is-back-again/)
