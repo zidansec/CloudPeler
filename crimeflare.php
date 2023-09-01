@@ -83,7 +83,7 @@ $url = str_replace("/", "", $url);
 
 // sudo apt install php-curl
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL,"https://crimeflare.zidansec.com/?url=".htmlspecialchars(addslashes($url)).""); // CrimeFlare API v2.1
+curl_setopt($ch, CURLOPT_URL,"http://crimeflare.zidansec.com/?url=".htmlspecialchars(addslashes($url)).""); // CrimeFlare API v2.1
 curl_setopt($ch, CURLOPT_POST, 1); 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); 
 $exec = curl_exec($ch);
